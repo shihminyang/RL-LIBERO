@@ -19,7 +19,7 @@
     export DISPLAY=:0
     ```
 
-3. Run the container
+4. Run the container
 
     ```bash
     source ./docker_run.sh
@@ -39,4 +39,11 @@
 2. Setup LIBERO in our folder
     ```bash
     pip install -e ./LIBERO
+    ```
+
+## Test
+1. Visualization of the environment interaction using random actions.
+
+    ```bash
+    python test_visual.py
     ```
